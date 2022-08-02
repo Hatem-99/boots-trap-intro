@@ -1,0 +1,77 @@
+.full{
+    max-width: 100% !important;
+}
+
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.logo {
+    padding-block: 20px;
+}
+
+.side{
+    background-color: black;
+    height: 100vh;
+    position: absolute;
+}
+
+.side  span{
+    color: #ebebeb;
+    align-self: center;
+    padding-inline: 15px;
+
+}
+.side a{
+    color: white;
+    padding-block: 10px;
+}
+.end{
+    display: flex;
+    height: 60%;
+    flex-direction: column;
+    justify-content: flex-end;
+}   
+
+.signing-options{
+    justify-content: flex-end;
+    align-items: center;
+    
+    height: 100%;
+
+}
+nav{
+    padding-inline: 10px;
+    color: #ebebeb;
+}
+.header{
+   background-color: #0000004d;
+   height: 100px;
+}
+.header div button{
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    padding-inline: 10px;
+    border-radius: 50px;
+    width: 114px;
+    height: 60px;
+    margin-inline: 10px;
+}
+
+.main-cards{
+  background-color: #000000d1;
+}
+
+.cards{
+    justify-content: space-evenly;
+    margin-block: 2rem;
+    flex-wrap: wrap;
+}
+
+
+@media 
